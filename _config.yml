@@ -1,0 +1,20 @@
+name: M van Eijgen
+markdown: redcarpet
+baseurl: ""
+permalink: /blog/:title/
+exclude: [
+  .git,
+  .gitignore,
+  .DS_Store,
+  CNAME,
+  svg-icons,
+  svg-decorations,
+  scss,
+  .sass-cache,
+  package.json,
+  Gruntfile.js,
+  node_modules,
+  readme.md
+]
+
+excerpt_separator: <!--more-->
